@@ -1,11 +1,15 @@
 # presenting_ivim.vim
 
-
-
 **presenting_ivim.vim** is a vim plugin that turns your markup into presentable
 slides (in ivim).
 
-**ivim** it's vim version for ios, with some capabilities like pure python packages and lua scripting, and with really little shell, as it's not possible to work as usual linux-flavour system, in the case of **presenting.vim** it's not possible to use __figlet__, so I have changed to use python version that could be installed through :!pip install pyfiglet. I have also solved some issues related to some tags from the original cloned version. I have also changed some fonts when using different headers.
+This is cloned version from 'presenting.vim' repository.
+Cloned repository [presenting.vim](https://github.com/sotte/presenting.vim)
+
+**ivim** it's vim version for ios, with some capabilities like pure python packages and lua scripting, and with really little shell.
+As it's not possible to work as usual linux-flavour system, in the case of **presenting.vim** it's not possible to use __figlet__, so I have changed to use python version that could be installed through :!pip install pyfiglet.
+
+I have also solved some issues related to some tags from the original cloned version. I have also changed some fonts when using different headers.
 
 **Summary**
 - Changed figlet by pyfiglet
@@ -13,9 +17,10 @@ slides (in ivim).
 - Different figlet fonts for header1/header2/header3
 - width adapted for my personal use in my ipad-air using mono nerd font (Anonymice 17.0)
 
-Here you have original and cloned README.md file:
+Here you have original and cloned README.md file
 
-Cloned repository [presenting.vim](https://github.com/sotte/presenting.vim)
+------------------------
+
 
 It is a clone of [present.vim][1] which is a clone of [presen.vim][2]. In
 contrast to its predecessors, presenting.vim:
